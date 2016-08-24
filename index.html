@@ -4,7 +4,6 @@
 
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <style>
  
         table, th, td {
@@ -12,15 +11,40 @@
             border-collapse: collapse;
    
         }
+        ul.sections {
 
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+        }
+        li.sect {
+                float: left;
+        }
+        a.active{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
     </style>
     <title>Aircraft Detection Device</title>
+    
 
 </head>
 
 <body>
 
 <div title = "heading">
+    <ul class="sections">
+        <li class="sect"><a class="active" href="#home">Home</a></li>
+        <li class="sect"><a class ="active" href="#deliverables">Deliverables</a></li>
+        <li class="sect"><a class="active" href="#team">Team</a></li>
+        <li class="sect"><a class="active" href="#data">Data</a></li>
+        <li class="sect"><a class="active" href="#photos">Photos</a></li>
+    </ul>
 
     <h1><strong>Aircraft Detection Device/Sky Spy/Sky Stalker/Avoidaplane</strong></h1>
     <p>Due to the rise in drone usage, the possibility of collisions involving other aircraft also increases. Preventative measures can be implemented to mitigate this risk through on-board position tracking. Outfitting a drone with Automatic Dependent Surveillance - Broadcast (ADS-B) technology contributes to situational awareness in aircraft avoidance. ADS-B is an aviation tracking technology that uses satellite positioning to transmit location and aircraft information. While many drones use cameras and vision techniques, the use of ADS-B tracking will add to drone operator&#39;s awareness of surrounding threats and reduce the risk of collision with ADS-B Out equipped aircraft. This device can be affixed to the drone and transmits ADS-B information to a ground station via radio transceivers. The ground station then performs all of the necessary calculations in order to deliver an accurate representation of surrounding air traffic. </p> 
@@ -43,22 +67,22 @@
 <div title = "deliverables">
     
     <div>
-        <h2>Design I Deliverables</h2>
-        <table style="width: 100%">
+        <h2 align="center">Design I Deliverables</h2>
+            <table style="width: 50%" align="center">
 
-            <tr>
-                <th>Name</th>
-                <th>Date</th>
-                <th>Draft</th>
-                <th>Final</th>
-            </tr>
-            <tr>
-                <td>Product Specifications</td>
-                <td></td>
-                <td align="center"><a href="docs/ProductSpec_Draft.pdf"><i class="fa fa-file" style="color:black"></i></a></td>
-                <td></td>
-        </table>
-    </div>
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Draft</th>
+                    <th>Final</th>
+                </tr>
+                <tr>
+                    <td>Product Specifications</td>
+                    <td></td>
+                    <td align="center"><a href="docs/ProductSpec_Draft.pdf">ProductSpecs</a></td>
+                    <td></td>
+            </table>
+</div>
 
 </div>
 
