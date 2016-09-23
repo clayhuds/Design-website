@@ -4,7 +4,10 @@
 img{
     width: 100%;
 }
-
+#title{
+    color:cornflowerblue;
+    text-align: center;
+}
 table, th, td {
             border: 1px solid black;
             border-collapse: collapse; 
