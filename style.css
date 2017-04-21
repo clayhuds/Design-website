@@ -1,5 +1,10 @@
-﻿body {
+﻿html {
+	height: 100%;
+}
+
+body {
    font-family: Calibri;
+   height: 100%;
 }
 img{
     width: 100%;
@@ -9,8 +14,11 @@ img{
     text-align: center;
 }
 table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse; 
+            border: 0px solid black;
+            border-collapse: separate; 
+			border-spacing: 10px;
+			background-color: #d3d3d3;
+			border-radius: 5px;
 }
 
 ul.team{
